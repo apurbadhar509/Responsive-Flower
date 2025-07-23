@@ -1,0 +1,188 @@
+/* shared style./ */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.orange{
+    color: #E95A08;
+}
+.black{
+    color: #000000;
+}
+
+
+.display-flex{
+    display: flex;
+}
+
+.text-grey{
+
+color: #8987A1;
+}
+.text-black{
+
+color: #424242;
+}
+
+/* navbar releted style/ */
+
+.navbar{
+    border: 1px solid red;
+ justify-items: center;
+    justify-content: space-between;
+     align-items: center;
+     /* max-width: 1440px; */
+    margin:30px 150px 50px 150px;
+    /* border: 1px solid red; */
+    
+}
+.brand{
+   width:  135px;
+   height:  82px;
+}
+.nav-item{
+    /* border: 1px solid red; */
+    justify-items: center;
+   
+     align-items: center;
+}
+.nav-items{
+ list-style: none;
+ margin-right: 30px;
+ /* margin-top: 40px;  */
+    
+}
+
+.nav-text{
+
+    text-decoration: none;
+}
+.home{
+    font-weight: 500;
+}
+
+
+
+.cart-img{
+    height: 15px;
+    width: 15px;
+}
+
+
+
+/* fresh flower */
+.fresh-flower{
+    /* border: 1px solid red; */
+    /* width: 1140px;
+    height: 461px; */
+ margin:30px 150px 50px 150px;
+ justify-content: center;
+    justify-content: space-between;
+     align-items: center;
+}
+
+.fresh-text{
+   
+       /* border: 1px solid blue; */
+    width: 570px;
+    height: 300px;
+}
+.fresh-title{
+ font-size: 3rem;
+    /* border: 1px solid GREEN; */
+   
+}
+.fresh-texts{
+ /* border: 1px solid blue; */
+}
+.flower-img{
+       /* border: 1px solid red; */
+    /* width: 570px;
+    height: 355px; */
+}
+.hero-flower{
+        width: 100%;
+    height: 100%;
+}
+
+/* responsive for mobile/ */
+@media screen and (max-width:576px) {
+    .brand{
+    width:  63px;
+   height:  38px;  
+   /* border: 1px solid red; */
+}
+.brand-logo{
+ height: 100%;
+ width: 100%;
+
+}
+.nav-text{
+    display: none;
+}
+.cart{
+
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    /* display:block; */
+    /* margin-top: 50px;  */
+    /* border: 1px solid red; */
+}
+.navbar{
+
+    justify-items: center;
+    justify-content: space-between;
+     align-items: center;
+    
+    margin: 16px 16px 16px 16px;
+    /* border: 1px solid red; */
+    
+}
+ .nav-item {
+    align-items: center;
+  }
+
+.fresh-flower{
+     display: flex;
+  flex-direction: column-reverse;
+  margin: 0;
+}
+/* .hero-flower{
+    height: 100%;
+    width: 100%;
+} */
+.fresh-title{
+
+    font-size: 2rem;
+    padding-left: 16px;
+    padding-right: 16px;
+}.fresh-text{
+   
+       /* border: 1px solid blue; */
+    /* width: 360px;
+    height: 147px; */
+        width: 100%;
+    height: 100%;
+     /* margin: 16px 16px 16px 16px;
+     padding-left: 16px;
+     padding-right: 16px; */
+}
+.fresh-texts{
+     padding-left: 16px;
+    padding-right: 16px;
+}
+}
