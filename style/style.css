@@ -118,6 +118,104 @@ color: #424242;
     height: 100%;
 }
 
+
+
+/* our plants section */
+.our-plant-title,.plant-lover-title{
+    font-weight: 700;
+    font-size: 3.1rem;
+}
+.our-plant-text{
+    font-size: 1.3rem;
+}
+.our-plant-texts{
+margin:30px 150px 50px 150px;
+text-align: center;
+}
+
+.our-plant-photo{
+    border: 1px solid red;
+    height: 485px;
+    width: 270px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+}
+.our-plant-photo-text{
+     border: 1px solid red;
+   text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: 0 auto; */
+    font-size: 1.3rem;
+}
+.add-to-cart{
+    text-align: center;
+    background-color: #E95A08;
+     border: 1px solid blue;
+      height: 50px;
+    width: 270px;
+ padding-top: 15px;
+ color: #FFFFFF;
+}
+.price{
+    font-weight: 700;
+}
+.our-plant-photos{
+     display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+   margin:30px 150px 50px 150px;
+    
+}
+
+
+
+/* plant lover  */
+.plant-lover{
+        /* height: 461px; */ 
+ margin:200px 150px 50px 150px;
+ justify-content: center;
+    justify-content: space-between;
+     align-items: center;
+     border: 1px solid red;
+}
+.plant-lover-texts{
+     justify-content: center;
+    justify-content: space-between;
+     align-items: center;
+     border: 1px solid red;
+     height: 540px;
+     width: 520px;
+}
+
+/* .plant-lover dev{
+    width: 50%;
+} */
+.plant-lover-text{
+    justify-content: center;
+    justify-content: space-between;
+     align-items: center;
+       border: 1px solid red;
+}
+.flower-store{
+     z-index: 2;
+}
+.badge{
+    height: 286px;
+    width: 286px;
+    margin-top: -100px;
+    margin-bottom: 100px;
+    margin-left: 400px;
+    z-index: 1;
+     position: absolute;
+}
+.img-wrap{
+     position: relative;
+}
+
+
 /* responsive for mobile/ */
 @media screen and (max-width:576px) {
     .brand{
@@ -185,4 +283,71 @@ color: #424242;
      padding-left: 16px;
     padding-right: 16px;
 }
+
+.our-plant-texts{
+margin:5px auto;
+text-align: center;
+}
+.our-plant-photos{
+     display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+   margin:0 auto ;    
+}
+.our-plant-photo{
+    border: 1px solid red;
+    height: 340px;
+    width: 171px;
+    margin: 16px 16px 16px 16px;
+    /* justify-content: center;
+    align-items: center;
+    margin-top: 30px; */
+
+}
+.our-plant-photo img{
+    height: 196px;
+    width: 171px;
+}
+
+.add-to-cart{
+  
+
+  text-align: center;
+    background-color: #E95A08;
+     border: 1px solid blue;
+      height: 50px;
+    width: 170px;
+ padding-top: 15px;
+ color: #FFFFFF;
+ 
+}
+.plant-lover
+    {
+     display: flex;
+  flex-direction: column;
+  /* margin: 0; */
+  margin: 100px 16px 16px 16px;
+}
+.plant-lover-texts{
+     justify-content: center;
+    justify-content: space-between;
+     align-items: center;
+     border: 1px solid blue;
+     height: 335px;
+     width: 360px;
+}
+.flower-store{
+    height: 360px;
+    width: 400px;
+}
+.plant-lover-title{
+    font-size: 1.8rem;
+}
+.plant-lover-text{
+    padding-top: 15px;
+}
+
+ .badge {
+    display: none;
+  }
 }
